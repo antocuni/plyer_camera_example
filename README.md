@@ -41,7 +41,7 @@ The key points are:
 
 See also `.github/workflow/buildozer.yml` for the full configuration needed to build the APK with the [buildozer action](https://github.com/ArtemSBulgakov/buildozer-action)
 
-**[Download the APK]**(https://github.com/antocuni/plyer_camera_example/releases/download/0.1/camera_example-0.1-armeabi-v7a-debug.apk)
+**[Download the APK](https://github.com/antocuni/plyer_camera_example/releases/download/0.1/camera_example-0.1-armeabi-v7a-debug.apk)**
 
 ## Screenshots
 
