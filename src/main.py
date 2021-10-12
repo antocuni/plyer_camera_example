@@ -67,6 +67,8 @@ class MyApp(App):
         Clock.schedule_once(lambda dt: self.root.ids.img.reload(), 0.1)
 
 def main():
+    from android.permissions import request_permissions, Permission
+    request_permissions([Permission.CAMERA])
     MyApp().run()
 
 if __name__ == '__main__':
