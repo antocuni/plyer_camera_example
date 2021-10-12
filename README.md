@@ -44,8 +44,10 @@ See also `.github/workflow/buildozer.yml` for the full configuration needed to b
 ## Screenshots
 
 Before taking the picture:
+
 ![before taking picture](screenshot-before.jpg)
 
 After taking the picture:
+
 ![after taking picture](screenshot-after.jpg)
 
