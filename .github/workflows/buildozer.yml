@@ -1,0 +1,30 @@
+name: Buildozer
+on: [push, pull_request]
+
+env:
+  buildozer_workdir: src
+  buildozer_version: git+https://github.com/antocuni/buildozer.git@antocuni/p4a-extra-args
+
+jobs:
+
+  android_debug:
+    name: Android (debug)
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Build with Buildozer
+        uses: ArtemSBulgakov/buildozer-action@v1
+        id: buildozer
+        with:
+          workdir: ${{ env.buildozer_workdir }}
+          buildozer_version: ${{ env.buildozer_version }}
+          command: buildozer android debug
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: debug
+          path: ${{ steps.buildozer.outputs.filename }}
