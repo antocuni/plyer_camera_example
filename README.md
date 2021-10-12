@@ -40,3 +40,12 @@ The key points are:
 ```
 
 See also `.github/workflow/buildozer.yml` for the full configuration needed to build the APK with the [buildozer action](https://github.com/ArtemSBulgakov/buildozer-action)
+
+## Screenshots
+
+Before taking the picture:
+![before taking picture](screenshot-before.jpg)
+
+After taking the picture:
+![after taking picture](screenshot-after.jpg)
+
