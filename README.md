@@ -22,7 +22,7 @@ fork of all of those.
 
   - `plyer` branch [antocuni/android-24-camera](https://github.com/antocuni/plyer/tree/antocuni/android-24-camera), see also PR XXX. This is also the plyer version which is vendored in this repository.
   
-  - `p4a` branch [fileprovider-rebased](https://github.com/antocuni/python-for-android/tree/fileprovider-rebased), see also [PR #1922](https://github.com/kivy/python-for-android/pull/1922]).
+  - `p4a` branch [fileprovider-rebased](https://github.com/antocuni/python-for-android/tree/fileprovider-rebased), see also [PR #1922](https://github.com/kivy/python-for-android/pull/1922).
   
   - `buildozer` branch [antocuni/p4a-extra-args](https://github.com/antocuni/buildozer/tree/antocuni/p4a-extra-args), see also PR XXX.
 
