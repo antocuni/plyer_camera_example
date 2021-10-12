@@ -33,8 +33,10 @@ The key points are:
   2. in `main.py`, the following lines instruct `plyer` to use the correct
      FileProvider authority to save the image:
 
-    ```python
+```python
         self.package_name = Context.getPackageName()
         assert plyer.camera.FILEPROVIDER_AUTHORITY is None
         plyer.camera.FILEPROVIDER_AUTHORITY = f'{self.package_name}.fileprovider'
-    ```
+```
+
+See also `.github/workflow/buildozer.yml` for the full configuration needed to build the APK with the [buildozer action](https://github.com/ArtemSBulgakov/buildozer-action)
