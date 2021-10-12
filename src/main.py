@@ -21,17 +21,22 @@ BoxLayout:
     Label:
         size_hint_y: None
         height: dp(50)
+        font_name: 'data/fonts/RobotoMono-Regular.ttf'
         text: 'Package name: %s' % app.package_name
+
 
     Label:
         size_hint_y: None
         height: dp(50)
+        font_name: 'data/fonts/RobotoMono-Regular.ttf'
         text: 'FILEPROVIDER_AUTHORITY:\n%s' % plyer.camera.FILEPROVIDER_AUTHORITY
 
     Label:
         size_hint_y: None
         height: dp(50)
-        text: 'img.source:\n%s' % root.ids.img.source
+        font_name: 'data/fonts/RobotoMono-Regular.ttf'
+        markup: True
+        text: 'root.ids.img.source:\n[size=7sp]%s[/size]' % root.ids.img.source
 
     Image:
         id: img
